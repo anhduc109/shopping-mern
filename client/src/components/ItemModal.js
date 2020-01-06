@@ -54,7 +54,7 @@ class ItemModal extends React.Component {
     return (
       <div>
         {isAuthenticated ? (
-          <Button color="dark" onClick={this.toggle}>
+          <Button color="dark" className="ml-4 mb-3" onClick={this.toggle}>
             Add Item
           </Button>
         ) : (
