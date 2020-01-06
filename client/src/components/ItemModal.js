@@ -54,11 +54,11 @@ class ItemModal extends React.Component {
     return (
       <div>
         {isAuthenticated ? (
-          <Button color="dark" className="ml-4 mb-3" onClick={this.toggle}>
+          <Button color="dark" className="ml-3 mb-3" onClick={this.toggle}>
             Add Item
           </Button>
         ) : (
-          <h4 className="mb-3 ml-3">Please log in to manage items</h4>
+          <h4 className="mb-3 ml-4">Please log in to manage items</h4>
         )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
